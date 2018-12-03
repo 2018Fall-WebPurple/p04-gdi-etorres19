@@ -1,0 +1,47 @@
+/*
+* Emily Torres
+* 12/3/18
+* Girl Develop It
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    background-color: #FCE2E0;}
+
+/* Here, I matched the background color to the color of the logo image and I centered it */
+header { 
+    text-align: center;
+    background-color: #F1636A;}
+
+/* I specified both the font and style for the h1 and h2 here. */
+h1, h2 {
+    font-family: "Apple Chancery", "Canciller Light", Canciller;
+    text-decoration: underline;}
+
+ul {
+    font-family: arial, Helvetica, sans-serif;}
+
+#info {
+    font-family: arial, helvetica, sans-serif;}
+
+#logo { 
+    height: 140px;
+    width: 525px;}
+
+#GirlsWithLaptops {
+    float: right;}
+
+#NotBoyfriendPC {
+    float: right;}
+
+/* I changed the font size to 17pt and the color for the hover and focus so that the links would get bigger and the color would change when you hover over it */
+a:hover, a:focus {
+    color:#EF5CF7;
+    font-size: 17pt;}
